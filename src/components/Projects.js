@@ -16,8 +16,8 @@ function Projects() {
     { title: 'Terävä', img: terava, link: 'http://terava.org/' }
   ];
 
-  const projectsElem = projects.map(p => {
-    return <Project key={p.title} link={p.link} img={p.img} title={p.title} />;
+  const projectsElem = projects.map((p, idx) => {
+    return <Project key={idx} link={p.link} img={p.img} title={p.title} />;
   });
 
   return (
