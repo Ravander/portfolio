@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css';
 import avatar from './img/avatar.jpg';
-import Projects from './components/Projects';
-import AppFooter from './components/AppFooter';
+import Projects from './components/projects/Projects';
+import AppFooter from './components/appFooter/AppFooter';
+import './App.scss';
 
 function App() {
   return (

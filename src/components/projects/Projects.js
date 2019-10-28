@@ -1,11 +1,11 @@
 import React from 'react';
 import Project from './Project';
-import './Projects.css';
-import desigence from '../img/projects/desigence-web.jpg';
-import dqueue from '../img/projects/dqueue-web.jpg';
-import laurimarkkanen from '../img/projects/laurimarkkanen-web.jpg';
-import tasurit from '../img/projects/tasurit-web.jpg';
-import terava from '../img/projects/terava-web.jpg';
+import desigence from '../../img/projects/desigence-web.jpg';
+import dqueue from '../../img/projects/dqueue-web.jpg';
+import laurimarkkanen from '../../img/projects/laurimarkkanen-web.jpg';
+import tasurit from '../../img/projects/tasurit-web.jpg';
+import terava from '../../img/projects/terava-web.jpg';
+import './Projects.scss';
 
 function Projects() {
   const projects = [
