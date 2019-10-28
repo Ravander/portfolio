@@ -1,7 +1,7 @@
 import React from 'react';
 import './Project.scss';
 
-function Project(props) {
+const Project = props => {
   return (
     <div className="project">
       <a href={props.link}>
@@ -14,6 +14,6 @@ function Project(props) {
       </a>
     </div>
   );
-}
+};
 
 export default Project;

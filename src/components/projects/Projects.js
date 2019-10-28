@@ -7,8 +7,8 @@ import tasurit from '../../img/projects/tasurit-web.jpg';
 import terava from '../../img/projects/terava-web.jpg';
 import './Projects.scss';
 
-function Projects() {
-  const projects = [
+const Projects = () => {
+  const projectsArr = [
     { title: 'Desigence', img: desigence, link: 'https://desigence.com/' },
     { title: 'Lauri Markkanen', img: laurimarkkanen, link: 'https://laurimarkkanen.fi/' },
     { title: 'dQueue', img: dqueue, link: 'https://desigence.com/jono/' },
@@ -16,15 +16,11 @@ function Projects() {
     { title: 'Terävä', img: terava, link: 'http://terava.org/' }
   ];
 
-  const projectsElem = projects.map((p, idx) => {
+  const projectsElem = projectsArr.map((p, idx) => {
     return <Project key={idx} link={p.link} img={p.img} title={p.title} />;
   });
 
-  return (
-    <div className="projects">
-      {projectsElem}
-    </div>
-  );
-}
+  return <div className="projects">{projectsElem}</div>;
+};
 
 export default Projects;

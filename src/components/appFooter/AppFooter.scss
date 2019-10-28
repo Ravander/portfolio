@@ -1,17 +1,19 @@
+@import '../../variables';
+
 .app-footer {
-  background-color: #BF544B;
-  color: white;
+  background-color: $primary-color;
+  color: $secondary-color;
   width: 100%;
   text-align: center;
   padding: 1rem;
 }
 
-@media (min-width: 993px) {
+@media (min-width: $breakpoint-desktop) {
   .app-footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    color: #BF544B;
+    color: $primary-color;
     background: none;
   }
 }

@@ -4,7 +4,7 @@ import Projects from './components/projects/Projects';
 import AppFooter from './components/appFooter/AppFooter';
 import './App.scss';
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <section className="contact-section">
@@ -18,6 +18,6 @@ function App() {
       </section>
     </div>
   );
-}
+};
 
 export default App;
